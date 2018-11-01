@@ -1,0 +1,51 @@
+footer{
+	background:#59227f;
+	.direccion{
+		padding: 30px 0;
+		color: #fff;
+		.titulo{
+			font-size: 32px;
+			line-height: 32px;
+			font-weight: 300;
+			margin-bottom: 30px;
+		}
+		.calle,.telefono,.correo{
+			margin-bottom: 10px;
+		}
+		
+		img{
+			margin-top: 30px;
+		}
+		
+	}
+	
+	.social{
+		text-align: center;
+		a{
+			padding: 10px;
+			display: inline-block;
+			margin: 0 30px;
+			width: 50px;
+			font-size: 30px;
+			color: #fff;
+			&:hover{
+				color: #F05A00;
+				text-decoration: none;
+			}
+		}
+	}
+
+	.copyright{
+		font-size: 15px;
+		text-align: center;
+		font-weight: 200;
+		color: #fff;
+		a, i{
+			text-decoration: none;
+			color: #F05A00;
+			&:hover{
+				color:#DB9D17
+			}
+		}
+	}
+}

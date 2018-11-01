@@ -1,0 +1,234 @@
+.main{
+	.caracteristicas{
+		padding: 70px 0;
+		.titulo{
+			text-align: center;
+			font-family: "Nunito", Arial;
+			font-weight: 300;
+			font-size: 32px;
+			color: #C27FF1;
+			margin-bottom: 70px;
+		}
+		.caracteristica{
+			text-align: center;
+			.icono{
+				vertical-align: top;
+				margin-bottom: 30px;
+			}
+			.primera_linea{
+				font-weight: 700;
+				margin-bottom: 30px;
+				font-size: 20px;
+			}
+			.parrafo{
+				margin-bottom: 30px;
+				line-height: 28px;
+			}
+		}
+	}
+
+	.fotos{
+		margin-bottom: 30px;
+		.foto{
+			margin-bottom: 10px;
+			.thumb{
+				img{
+					border-radius: 3px;
+					width: 100%;
+					vertical-align: top;
+				}
+			}
+
+			.titulo{
+				margin-top: 50px;
+				margin-bottom: 40px;
+				font-size: 32px;
+				line-height: 32px;
+				font-weight: 300;
+
+				&.purpura{
+					color: #59227f;
+				}
+				&.naranja{
+					color: #F05A00;
+				}
+			}
+
+			.parrafo{
+				line-height: 28px;
+			}
+			.derecha{
+				text-align: right;
+			}
+		}
+	}
+
+	.clientes{
+		background: #106fa7;
+		padding: 40px 0;
+
+		.titulo{
+			color: #fff;
+			text-align: center;
+			font-family: "Nunito", Arial;
+			font-weight: 300;
+			font-size: 32px;
+			margin-bottom: 40px;
+		}
+		.cliente{
+			text-align: center;
+			a{
+				display: block;
+				img{
+					color:#fff;
+					height: 100px;
+					width: 100px;
+				}
+			}
+		}
+	}
+
+	.precios{
+		background: url('../img/blur.jpg');
+		background-size: cover;
+		background-position: center 0;
+		background-repeat: no-repeat;
+		padding: 70px 0;
+		.titulo{
+			color: #fff;
+			text-align: center;
+			font-weight: 300;
+			font-size: 20px;
+			margin: 20px 0;
+		}
+		.plan{
+			background: rgba(255,255,255,.7);
+			text-align: center;
+			font-family: "Nunito", Arial;
+			padding: 50px 0;
+
+			.nombre{
+				color:#F05A00;
+				font-size: 32px;
+				font-weight: 400;
+				font-weight: 32px;
+				margin-bottom: 30px;
+			}
+			.precio{
+				font-weight: 300;
+				font-size: 48px;
+				margin-bottom: 30px;
+			}
+			.caracteristicas{
+				list-style: none;
+				padding: 0 20px;
+				margin-bottom: 50px;
+				li{
+					font-size: 18px;
+					padding: 15px 0;
+					border-bottom: 1px dotted #fff;
+				}
+			.btn{
+				width: 70%;
+				font-size: 16px;
+				padding: 15px 0;
+				text-align: center;
+				display: inline-block;
+				border-radius: 100px;
+			}
+
+			}
+			&.purpura{
+				.nombre,.precio, ul li{ color:#9F05BB;}
+				.btn{
+					color:#9F05BB;
+					border: 2px solid #9F05BB;
+					&:hover{
+						background:#9F05BB;
+						color: #fff;
+					}
+				}
+			}
+			
+			&.active{
+				 background:#F05A00;
+				 color: #fff;
+				 .nombre{color:#fff;}
+				.btn{
+					color:#fff;
+					border: 2px solid #fff;		
+					&:hover{
+						background:#fff;
+						color: #F05A00;
+					}
+				}
+			}
+
+			&.purpura{
+				.nombre,.precio{ color:#9F05BB;}
+				.btn{
+					color:#9F05BB;
+					border: 2px solid #9F05BB;		
+					&:hover{
+						background:#9F05BB;
+						color: #fff;
+					}
+				}
+			}
+		}
+	}
+
+	.reviews{
+		padding: 70px;
+		.titulo{
+			text-align: center;
+			font-family: "Nunito", Arial;
+			font-weight: 300;
+			font-size: 32px;
+			color: #F05A00;
+			margin-bottom: 70px;
+		}
+
+		.cliente{
+			overflow: hidden;
+			margin-bottom: 20px;
+			.foto{
+				width: 20%;
+				float:left;
+				text-align: right;
+				img{
+					max-width: 100px;
+					width: 100%;
+					vertical-align: top;
+					border-radius:100%;
+				}
+			}
+			.review{
+				float:left;
+				width: 80%;
+				padding: 0 30px;
+				margin-top: 20px;
+				.texto{
+					font-size: 18px;
+					line-height: 28px;
+					margin-bottom: 10px;
+				}
+				.nombre{
+					color: #F05A00;
+					font-size: 14px;
+				}
+			}
+
+			&.derecha{
+				.foto{
+					float: right;
+					text-align: left;
+				}
+				.review{
+					float: right;
+					text-align: right;
+				}
+			}
+		}
+	}
+}
