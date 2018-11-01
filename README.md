@@ -3,7 +3,7 @@
 ![web_formacion](https://user-images.githubusercontent.com/37070594/47862266-0a0ab500-ddf5-11e8-8f51-9dbe9e0e6c75.gif)
 Diseño de una pagina web responsive para una Startup, escuela o negocio.
 - Tecnologias usadas: 
-  - Javascript
+  - jQuery
   - Bootstrap
   - CSS + SASS
   - Html
