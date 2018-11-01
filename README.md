@@ -4,7 +4,17 @@
 Diseño de una pagina web responsive para una Startup, escuela o negocio.
 - Tecnologias usadas: 
   - Javascript
+  - Bootstrap
   - CSS + SASS
   - Html
 
 [Visualizar la pagina web](https://andrea-code.github.io/Web-Formacion/)
+
+#### Recursos - Creditos:
+- [FontAwesome](https://fontawesome.com/cheatsheet?from=io)
+- Fotografias:
+  - [Merah Lee](https://unsplash.com/@merahlee)
+  - [Prince Akachi](https://unsplash.com/@princearkman)
+  - [Mimi Thian](https://unsplash.com/@mimithian)
+  - [NESA](https://unsplash.com/@nesabymakers)
+  - [David Becker](https://unsplash.com/@beckerworks)
